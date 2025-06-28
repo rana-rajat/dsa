@@ -2,7 +2,7 @@ package org.example.RepeatingQuestionsService;
 
 public class LargestAndSecondLargestElementInArray {
     public static void main(String[] args) {
-        int[] arr = {25, 47, 3, 19, 8, 47 ,30};
+        int[] arr = {25, 47, 3, 19, 8, 47, 30};
 
         int max = Integer.MIN_VALUE;
         int secondMax = Integer.MIN_VALUE;
