@@ -1,4 +1,4 @@
-package org.example.RepeatingQuestionsService;
+package org.example.RepeatingQuestionsArray;
 
 public class SortedArray {
     public static boolean sorted(int[] arr) {

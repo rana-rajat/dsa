@@ -1,4 +1,4 @@
-package org.example.RepeatingQuestionsService;
+package org.example.RepeatingQuestionsArray;
 
 public class LargestAndSecondLargestElementInArray {
     public static void main(String[] args) {

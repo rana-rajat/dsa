@@ -1,4 +1,4 @@
-package org.example.RepeatingQuestionsService;
+package org.example.RepeatingQuestionsArray;
 
 import java.util.Arrays;
 

@@ -1,8 +1,8 @@
-package org.example.RepeatingQuestionsService;
+package org.example.RepeatingQuestionsArray;
 
 import java.util.Arrays;
 
-public class PrintSortedArray {
+public class PrintSortedArrayManually {
     public static void main(String[] args) {
         int[] arr = {7, 2, 9, 4, 1};
 
