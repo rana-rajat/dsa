@@ -7,8 +7,9 @@ public class DuplicateStringAlternateMethod {
         StringBuilder result = new StringBuilder();
 
         for(char ch : str.toCharArray()){
-            if(!seen[ch]){
-                seen[ch]=true;
+            int index = ch - 'a';
+            if(!seen[index]){
+                seen[index]=true;
                 result.append(ch);
             }
         }
