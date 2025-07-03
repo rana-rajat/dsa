@@ -5,7 +5,6 @@ public class CheckCharacterRepeats {
 
         String str = "abcadfegasdx";
         boolean[] seen = new boolean[256];
-        StringBuilder result = new StringBuilder();
 
         for (char ch : str.toCharArray()){
             if(!seen[ch]){
