@@ -12,6 +12,7 @@ public class CountFrequencyOfElement {
         for(int value : arr){
             count.put(value,count.getOrDefault(value,0)+1);
         }
+
         for(Map.Entry<Integer,Integer> newMap :count.entrySet()){
             System.out.println("Element "+newMap.getKey()+" occurs " + newMap.getValue()+" times.");
         }
