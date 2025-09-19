@@ -19,5 +19,25 @@ public class First {
         String join = String.join("", numberArray);
         int i = Integer.parseInt(join);
         System.out.println(i);
+
+        //Above do for String only use the below method to reverse a number
+        int num = 5678;
+        while (num > 0) {
+            int lastDigit = num % 10;
+            System.out.print(lastDigit);
+            num = num / 10;
+        }
+        System.out.println();
+
+        //below we don't directly print instead we will save it into a variable
+        int newNumber = 45678;
+        int reversedNumber = 0;
+
+        while (newNumber > 0) {
+            int lastdigit = newNumber % 10;
+            reversedNumber = (reversedNumber * 10) + lastdigit;
+            newNumber = newNumber / 10;
+        }
+        System.out.println(reversedNumber);
     }
 }
