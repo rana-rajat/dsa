@@ -12,3 +12,8 @@ public class SecondInvertedStarPattern {
         }
     }
 }
+//x x x x x
+//x x x x
+//x x x
+//x x
+//x

@@ -10,3 +10,8 @@ public class FirstStarPattern {
         }
     }
 }
+//x
+//x x
+//x x x
+//x x x x
+//x x x x x
