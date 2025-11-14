@@ -12,7 +12,8 @@ public class FifthButterFlyPattern {
             }
 
             // Spaces
-            for (int j = 1; j <= 2 * (n - i); j++) {
+            int count = 2 * (n - i);
+            for (int j = 1; j <= count; j++) {
                 System.out.print(" ");
             }
 
@@ -32,7 +33,8 @@ public class FifthButterFlyPattern {
             }
 
             // Spaces
-            for (int j = 1; j <= 2 * (n - i); j++) {
+            int count = 2 * (n - i);
+            for (int j = 1; j <= count; j++) {
                 System.out.print(" ");
             }
 
