@@ -19,7 +19,6 @@ public class First {
         String join = String.join("", numberArray);
         int i = Integer.parseInt(join);
         System.out.println(i);
-
         //Above do for String only use the below method to reverse a number
         int num = 5678;
         while (num > 0) {

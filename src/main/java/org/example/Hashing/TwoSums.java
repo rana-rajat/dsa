@@ -15,6 +15,7 @@ public class TwoSums {
             }
 
             map.put(numb[i], i);
+            System.out.println("Map after inserting " + numb[i] + ": " + map);
         }
 
         throw new IllegalArgumentException("No two sum solution");
