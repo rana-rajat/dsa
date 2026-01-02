@@ -2,7 +2,7 @@ package org.example.RepeatingQuestionString;
 
 public class PalindromeCheckLogic {
     public static void main(String[] args) {
-        String str = "Mafdam";
+        String str = "Madam";
         String clean = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
         char[] newString = clean.toCharArray();
         System.out.println(newString);
